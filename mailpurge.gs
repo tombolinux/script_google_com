@@ -6,10 +6,9 @@
   Passo 1. Immettete i valori desiderati per le variabili GMAIL_LABELS e PURGE_AFTER qui sotto.
            Potete aggiungere quante "label[n]" volete, anche una sola.
   Passo 2. Andate su  Run -> installTriggers     per installare i trigger. Verranno richieste anche le autorizzazioni all'accesso.
-  Passo 3  Andate su  Run -> purgeGmail per eseguire lo script ed eliminare le email.
-  
-  Adesso potete uscire da questa finestra. Ogni messaggio email con l'etichetta selezionata sarà automaticamente 
-  eliminato se più vecchio di 'PURGE_AFTER' giorni. Lo script verrà eseguito automaticamente ogni giorno alle ore 01:00.
+    
+  Ogni messaggio email con l'etichetta indicata sarà automaticamente spostato nel cestino se più vecchio di 'PURGE_AFTER' giorni. 
+  Lo script verrà rilanciato ogni 10 minuti fino alla pulizia completa. Lo script verrà eseguito automaticamente ogni giorno alle ore 01:00.
   
   E' possibile eseguire  Run -> uninstallTriggers  per arrestare le sue schedulazioni in qualsiasi momento.
 */
